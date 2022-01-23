@@ -2,6 +2,7 @@ body{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
     margin-left: 10%;
+    margin-right: 10%;
 }
 h2{
     align-self:center;
@@ -18,9 +19,39 @@ h3{
     padding: 2% 0 2% 0;
     color: rgb(54, 183, 243);
 }
+
+.profile-content{
+    display: flex;
+    padding:10px 5% 10px 5%;
+}
+
 #about{
     height: auto;
     width: 30%;
+    text-align: left;
+}
+
+#details{
+    text-align: left;
+}
+
+#me{
+    border-radius: 50%;
+}
+
+.circular--square{
+    margin-top: 5%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.field{
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+.value{
+    margin-top: 0%;
 }
 
 #contact {
